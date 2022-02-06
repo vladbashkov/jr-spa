@@ -1,0 +1,1094 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.no-webp body {
+  background: url(../img/layer-10@3x.png) center/cover no-repeat; }
+
+body {
+  direction: rtl;
+  position: relative;
+}
+
+main {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.header {
+  position: relative;
+  overflow: hidden;
+  padding: 7% 0;
+}
+
+.header .bg-tracery {
+  max-width: 500px;
+  max-height: 1000px;
+  top: -500px;
+  right: -80px;
+  z-index: 1;
+}
+
+.header-elements {
+  position: absolute;
+  z-index: 3;
+}
+
+.header-elements img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.header417 {
+  max-width: 270px;
+  max-height: 230px;
+  top: 20%;
+  left: -5%;
+}
+
+.header-secret {
+  max-width: 275px;
+  max-height: 480px;
+  top: 25%;
+  left: 8%;
+}
+
+.header-karma {
+  max-width: 250px;
+  max-height: 220px;
+  top: 5%;
+  right: 10%;
+}
+
+.header-molton {
+  max-width: 270px;
+  max-height: 380px;
+  top: 35%;
+  right: -5%;
+}
+
+.anim {
+  -webkit-animation: myAnim 5s ease-in-out 0s infinite normal both;
+          animation: myAnim 5s ease-in-out 0s infinite normal both;
+}
+
+@-webkit-keyframes myAnim {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes myAnim {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.logo {
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 2;
+}
+
+.logo img {
+  max-width: 860px;
+}
+
+.page-title {
+  color: #bd944f;
+  font-size: 3.1em;
+  line-height: 1.17;
+  letter-spacing: 0.56px;
+  text-align: center;
+  font-weight: bold;
+  padding: 5% 0;
+}
+
+.info-title {
+  font-size: 2.28em;
+}
+
+.container-element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 15px;
+}
+
+.box {
+  background: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 12px;
+}
+
+.first-box {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  max-width: 600px;
+  max-height: 300px;
+}
+
+.first-box img {
+  max-width: 270px;
+  max-height: 280px;
+}
+
+.second-box {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 425px;
+  max-height: 550px;
+}
+
+.second-box img {
+  max-width: 400px;
+  max-height: 280px;
+}
+
+.box-text {
+  color: #bd944f;
+  font-size: 3em;
+  line-height: 1.09;
+  letter-spacing: -1.09px;
+  text-align: right;
+  font-weight: bold;
+  direction: rtl;
+  padding: 25px 0;
+}
+
+.box-link {
+  margin: 10px 0;
+  text-align: left;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.box-link:hover {
+  color: #bd944f;
+}
+
+.reverse-container {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.column-container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.discount {
+  background: #bd944f;
+  max-width: 630px;
+  max-height: 335px;
+  padding: 35px;
+}
+
+.discount img {
+  max-width: 490px;
+  max-height: 200px;
+}
+
+.discount-text {
+  font-size: 3em;
+  color: #ffffff;
+  line-height: 1.09;
+  letter-spacing: -1.09px;
+  text-align: right;
+  font-weight: bold;
+  direction: rtl;
+}
+
+.gradient-bg {
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, transparent), to(#fff));
+  background: -o-linear-gradient(top, transparent 80%, #fff 100%);
+  background: linear-gradient(180deg, transparent 80%, #fff 100%);
+  position: relative;
+}
+
+.bg-tracery {
+  max-width: 500px;
+  max-height: 1000px;
+  position: absolute;
+  left: -27%;
+  z-index: 1;
+}
+
+.bg-tracery img {
+  max-width: 100%;
+  max-height: 100%;
+  z-index: 1;
+}
+
+.white-bg {
+  width: 100%;
+  padding: 100px 0;
+  background: #ffffff;
+}
+
+.white-bg .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  margin: 40px 0;
+}
+
+.row-element {
+  margin: 0 17px;
+  text-align: left;
+  z-index: 4;
+}
+
+.row-element .box-link {
+  font-size: 32.5px;
+  line-height: 1.54;
+  letter-spacing: -0.33px;
+}
+
+.no-webp .offer-container {
+  background: url(../img/layer-10@3x.png) center/cover no-repeat; }
+
+.offer-container {
+  width: 520px;
+  height: 470px;
+  max-width: 520px;
+  max-height: 470px;
+  padding: 20px 30px 0 30px;
+  margin-bottom: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+}
+
+.offer-container .offer-text {
+  padding: 30px 45px;
+  background: #fff;
+  font-size: 63px;
+  color: #bd944f;
+  line-height: 0.45;
+  letter-spacing: 0.63px;
+  max-width: 380px;
+  text-align: center;
+}
+
+.offer-container .offer-text b {
+  font-weight: bold;
+}
+
+.offer-container .offer-container_box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 55px;
+}
+
+.offer-container .offer-container_box picture * {
+  position: absolute;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.offer-container .offer-container_box .square {
+  position: relative;
+  right: 30%;
+  width: 245px;
+  height: 210px;
+  background: #bd944f;
+  z-index: 5;
+}
+
+.offer-container .offer-container_box .tracery {
+  z-index: 4;
+  max-width: 250px;
+  max-height: 290px;
+  right: 35px;
+  bottom: 0;
+}
+
+.offer-container .offer-container_box .coconut-passion {
+  left: 0;
+  bottom: 0;
+  max-width: 160px;
+  max-height: 260px;
+  z-index: 7;
+}
+
+.offer-container .offer-container_box .clarins {
+  z-index: 7;
+  left: 0;
+  bottom: 0;
+  max-width: 145px;
+  max-height: 165px;
+}
+
+.offer-container .offer-container_box .offer-karma {
+  max-width: 160px;
+  max-height: 140px;
+  z-index: 7;
+  top: -15%;
+  left: 25%;
+}
+
+.offer-container .offer-container_box .offer-serenity {
+  max-width: 175px;
+  max-height: 155px;
+  z-index: 7;
+  bottom: 0;
+  right: 0;
+}
+
+.offer-container .offer-container_box .peeling-karma {
+  max-width: 230px;
+  max-height: 260px;
+  z-index: 7;
+  right: -5%;
+  bottom: 0;
+}
+
+.offer-container .offer-container_box .neutrogena {
+  z-index: 7;
+  max-width: 205px;
+  max-height: 280px;
+  top: -15%;
+  left: 0;
+}
+
+.offer-container .offer-container_box .clinique {
+  z-index: 7;
+  max-width: 200px;
+  max-height: 275px;
+  right: -5%;
+  bottom: 0;
+}
+
+.offer-container .offer-container_box .molton {
+  z-index: 7;
+  max-width: 220px;
+  max-height: 275px;
+  left: 0;
+  top: -25%;
+}
+
+.offer-container .offer-container_box .molton-brown {
+  max-width: 180px;
+  max-height: 285px;
+  z-index: 7;
+  top: 0;
+  right: 0;
+}
+
+.offer-container .offer-container_box .molton-brown2 {
+  max-width: 190px;
+  max-height: 235px;
+  z-index: 7;
+  top: -15%;
+  left: 25%;
+}
+
+.offer-container:hover .coconut-passion,
+.offer-container:hover .offer-karma,
+.offer-container:hover .molton-brown,
+.offer-container:hover .clarins,
+.offer-container:hover .molton-brown2,
+.offer-container:hover .offer-serenity,
+.offer-container:hover .molton,
+.offer-container:hover .peeling-karma,
+.offer-container:hover .neutrogena,
+.offer-container:hover .clinique {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.footer {
+  background: #fff;
+  font-size: 30px;
+  line-height: 2.5;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+
+@media (max-width: 1299px) {
+  .header417 {
+    max-width: 210px;
+    max-height: 170px;
+  }
+
+  .header-secret {
+    max-width: 175px;
+    max-height: 390px;
+  }
+
+  .header-karma {
+    max-width: 160px;
+    max-height: 130px;
+  }
+
+  .header-molton {
+    max-width: 180px;
+    max-height: 290px;
+  }
+
+  .offer-container {
+    max-width: 450px;
+    max-height: 400px;
+  }
+
+  .offer-container .offer-container_box .square {
+    width: 200px;
+    height: 165px;
+  }
+
+  .offer-container .offer-container_box .tracery {
+    max-width: 200px;
+    max-height: 240px;
+  }
+
+  .offer-container .offer-container_box .coconut-passion {
+    max-width: 110px;
+    max-height: 210px;
+  }
+
+  .offer-container .offer-container_box .clarins {
+    max-width: 115px;
+    max-height: 135px;
+  }
+
+  .offer-container .offer-container_box .offer-karma {
+    max-width: 110px;
+    max-height: 90px;
+  }
+
+  .offer-container .offer-container_box .offer-serenity {
+    max-width: 125px;
+    max-height: 105px;
+  }
+
+  .offer-container .offer-container_box .peeling-karma {
+    max-width: 180px;
+    max-height: 210px;
+  }
+
+  .offer-container .offer-container_box .neutrogena {
+    max-width: 165px;
+    max-height: 230px;
+  }
+
+  .offer-container .offer-container_box .clinique {
+    max-width: 150px;
+    max-height: 225px;
+  }
+
+  .offer-container .offer-container_box .molton {
+    max-width: 170px;
+    max-height: 225px;
+  }
+
+  .offer-container .offer-container_box .molton-brown {
+    max-width: 130px;
+    max-height: 235px;
+  }
+
+  .offer-container .offer-container_box .molton-brown2 {
+    max-width: 140px;
+    max-height: 185px;
+  }
+}
+
+@media (max-width: 1099px) {
+  .header417 {
+    max-width: 180px;
+    max-height: 140px;
+  }
+
+  .header-secret {
+    top: 50%;
+    left: 35%;
+  }
+
+  .reverse-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+
+  .bg-tracery {
+    max-width: 400px;
+    max-height: 900px;
+    left: -35%;
+  }
+}
+
+@media (max-width: 979px) {
+  .header {
+    padding: 7% 0 20% 0;
+  }
+
+  .logo img {
+    max-width: 600px;
+  }
+
+  .page-title {
+    font-size: 2.5em;
+  }
+
+  .box-text {
+    font-size: 35px;
+    padding: 25px 15px;
+  }
+
+  .bg-tracery {
+    display: none;
+  }
+
+  .offer-container {
+    max-width: 350px;
+    max-height: 300px;
+  }
+
+  .offer-container .offer-text {
+    font-size: 40px;
+    padding: 20px 30px;
+  }
+
+  .offer-container .offer-container_box .square {
+    max-width: 180px;
+    max-height: 145px;
+    top: -15%;
+  }
+
+  .offer-container .offer-container_box .tracery {
+    max-width: 170px;
+    max-height: 210px;
+    right: 10px;
+  }
+
+  .offer-container .offer-container_box .offer-karma {
+    top: -30%;
+    left: 35%;
+  }
+
+  .offer-container .offer-container_box .offer-serenity {
+    right: -10%;
+  }
+
+  .offer-container .offer-container_box .peeling-karma {
+    right: -10%;
+    bottom: -12%;
+  }
+
+  .offer-container .offer-container_box .neutrogena {
+    top: -40%;
+  }
+
+  .offer-container .offer-container_box .clinique {
+    bottom: -10%;
+  }
+
+  .offer-container .offer-container_box .molton {
+    top: -40%;
+  }
+
+  .offer-container .offer-container_box .molton-brown {
+    top: -25%;
+  }
+
+  .offer-container .offer-container_box .molton-brown2 {
+    top: -45%;
+    left: 20%;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 7% 0 25% 0;
+  }
+
+  .header-molton {
+    top: 45%;
+  }
+
+  .discount img {
+    max-width: 360px;
+    max-height: 100px;
+  }
+
+  .discount {
+    max-width: 500px;
+    max-height: 255px;
+  }
+
+  .row-element .box-link {
+    font-size: 18px;
+  }
+
+  .offer-container {
+    max-width: 300px;
+    max-height: 250px;
+  }
+
+  .offer-container .offer-text {
+    font-size: 30px;
+  }
+
+  .offer-container .offer-container_box .square {
+    max-width: 160px;
+    max-height: 125px;
+  }
+
+  .offer-container .offer-container_box .tracery {
+    max-width: 150px;
+    max-height: 190px;
+    right: 5px;
+  }
+
+  .offer-container .offer-container_box .coconut-passion {
+    left: -10%;
+    bottom: 20%;
+  }
+
+  .offer-container .offer-container_box .clarins {
+    left: -10%;
+  }
+
+  .offer-container .offer-container_box .offer-karma {
+    top: -45%;
+    left: 30%;
+  }
+
+  .offer-container .offer-container_box .peeling-karma {
+    max-width: 150px;
+    max-height: 180px;
+  }
+
+  .offer-container .offer-container_box .neutrogena {
+    max-width: 125px;
+    max-height: 190px;
+    top: -50%;
+  }
+
+  .offer-container .offer-container_box .clinique {
+    max-width: 120px;
+    max-height: 195px;
+    bottom: 0;
+  }
+
+  .offer-container .offer-container_box .molton {
+    max-width: 130px;
+    max-height: 185px;
+    top: -55%;
+  }
+
+  .offer-container .offer-container_box .molton-brown {
+    top: -40%;
+  }
+
+  .offer-container .offer-container_box .molton-brown2 {
+    max-width: 120px;
+    max-height: 165px;
+    top: -60%;
+  }
+}
+
+@media (max-width: 660px) {
+  .header417 {
+    max-width: 110px;
+    max-height: 105px;
+  }
+
+  .header-secret {
+    max-width: 115px;
+    max-height: 330px;
+    top: 50%;
+  }
+
+  .header-karma {
+    max-width: 100px;
+    max-height: 110px;
+    top: 5%;
+    right: 0;
+  }
+
+  .header-molton {
+    max-width: 150px;
+    max-height: 260px;
+  }
+
+  .logo img {
+    max-width: 400px;
+  }
+
+  .page-title {
+    font-size: 29.5px;
+  }
+
+  .info-title {
+    font-size: 23.5px;
+  }
+
+  .first-box img {
+    max-width: 140px;
+    max-height: 200px;
+  }
+
+  .first-box {
+    max-width: 305px;
+    max-height: 215px;
+  }
+
+  .second-box img {
+    max-width: 280px;
+    max-height: 200px;
+  }
+
+  .second-box {
+    max-width: 305px;
+    max-height: 360px;
+  }
+
+  .box-text {
+    font-size: 25px;
+    padding: 15px 10px;
+  }
+
+  .white-bg {
+    padding: 50px 0;
+  }
+
+  .row {
+    margin: 20px 0;
+  }
+
+  .offer-container {
+    max-width: 145px;
+    max-height: 195px;
+    padding: 10px;
+  }
+
+  .offer-container .offer-text {
+    font-size: 20px;
+    padding: 10px 0;
+    max-width: 130px;
+  }
+
+  .offer-container .offer-container_box .square {
+    max-width: 100px;
+    max-height: 85px;
+    right: 20%;
+    top: -30%;
+  }
+
+  .offer-container .offer-container_box .tracery {
+    max-width: 120px;
+    right: -55%;
+    bottom: -10%;
+  }
+
+  .offer-container .offer-container_box .coconut-passion {
+    max-width: 60px;
+    max-height: 100px;
+    left: -5%;
+  }
+
+  .offer-container .offer-container_box .clarins {
+    max-width: 75px;
+    max-height: 85px;
+  }
+
+  .offer-container .offer-container_box .offer-karma {
+    max-width: 60px;
+    max-height: 55px;
+  }
+
+  .offer-container .offer-container_box .offer-serenity {
+    max-width: 65px;
+    max-height: 60px;
+  }
+
+  .offer-container .offer-container_box .peeling-karma {
+    max-width: 90px;
+    max-height: 100px;
+  }
+
+  .offer-container .offer-container_box .neutrogena {
+    max-width: 70px;
+    max-height: 100px;
+  }
+
+  .offer-container .offer-container_box .clinique {
+    max-width: 70px;
+    max-height: 100px;
+  }
+
+  .offer-container .offer-container_box .molton {
+    max-width: 80px;
+    max-height: 95px;
+  }
+
+  .offer-container .offer-container_box .molton-brown {
+    max-width: 165px;
+    max-height: 105px;
+    top: -15%;
+    right: -5%;
+  }
+
+  .offer-container .offer-container_box .molton-brown2 {
+    max-width: 70px;
+    max-height: 90px;
+  }
+
+  .footer {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 7% 0 30% 0;
+  }
+
+  .header417 {
+    top: 10%;
+  }
+
+  .header-secret {
+    left: 25%;
+  }
+
+  .header-karma {
+    top: 0;
+  }
+
+  .footer {
+    font-size: 15px;
+  }
+}
+
+.webp body { background: url(../img/layer-10@3x.webp) center/cover no-repeat; }
+
+.webp .offer-container { background: url(../img/layer-10@3x.webp) center/cover no-repeat; }
